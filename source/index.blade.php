@@ -3,15 +3,23 @@
 @section('body')
     <h1>Introduction</h1>
     <p>
-        My name's Sven Luijten, and I'm a backend developer from a small town in the south of The Netherlands.
+        My name's Sven Luijten, and I'm a backend PHP developer from a small town in the south of The Netherlands. Right now I'm
+        doing Laravel development, which is what I intend on doing for the forseeable future.
     </p>
 
     <h2>My Projects</h2>
     <p>
-        I've been active in the Laravel community developing packages aimed at improving the developer experience.
-        One of my packages you may have come across is <a href="//github.com/svenluijten/artisan-view">Artisan View</a>,
+        I've been active in the Laravel community developing packages aimed at improving the developer experience. One of my packages
+        you may have come across is <a href="https://github.com/svenluijten/artisan-view" target="_blank">Artisan View</a>,
         which adds a simple <code>make:view</code> command to your Laravel application. Feel free to poke around on
-        <a href="https://github.com/svenluijten">my GitHub</a> to see some of the other projects I've worked on and
-        contributed to.
+        <a href="https://github.com/svenluijten" target="_blank">my GitHub (svenluijten)</a> to see some of the other projects I've
+        worked on and contributed to.
+    </p>
+
+    <h2>Get in touch</h2>
+    <p>
+        If you want to get in touch, feel free! The most common (and easiest) way is via
+        <a href="https://twitter.com/svenluijten" target="_blank">my Twitter (@svenluijten)</a>. My DM's are open in case
+        you want to discuss something more private.
     </p>
 @endsection
