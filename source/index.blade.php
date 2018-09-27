@@ -7,7 +7,7 @@
         doing Laravel development, which is what I intend on doing for the forseeable future.
     </p>
 
-    <h2>My Projects</h2>
+    <h2 class="mt-4">My Projects</h2>
     <p>
         I've been active in the Laravel community developing packages aimed at improving the developer experience. One of my packages
         you may have come across is <a href="https://github.com/svenluijten/artisan-view" target="_blank">Artisan View</a>,
@@ -16,7 +16,7 @@
         worked on and contributed to.
     </p>
 
-    <h2>Get in touch</h2>
+    <h2 class="mt-4">Get in touch</h2>
     <p>
         If you want to get in touch, feel free! The most common (and easiest) way is via
         <a href="https://twitter.com/svenluijten" target="_blank">my Twitter (@svenluijten)</a>. My DM's are open in case

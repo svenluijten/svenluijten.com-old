@@ -6,8 +6,8 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <link rel="stylesheet" href="{{ mix('/css/main.css') }}">
     </head>
-    <body>
-        <div class="container mx-auto">
+    <body class="leading-normal bg-grey-lighter antialiased subpixel-antialiased">
+        <div class="w-1/5 mx-auto text-lg">
             @yield('body')
         </div>
     </body>
