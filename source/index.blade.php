@@ -4,7 +4,7 @@
     <h1>Introduction</h1>
     <p>
         My name's Sven Luijten, and I'm a backend PHP developer from a small town in the south of The Netherlands. Right now I'm
-        doing Laravel development, which is what I intend on doing for the forseeable future.
+        doing Laravel development, and I'm (slowly but surely) learning Golang.
     </p>
 
     <h2 class="mt-4">My Projects</h2>
