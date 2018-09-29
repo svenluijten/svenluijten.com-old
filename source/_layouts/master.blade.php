@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="{{ mix('/css/main.css') }}">
     </head>
     <body class="leading-normal bg-grey-lighter antialiased subpixel-antialiased">
-        <div class="xl:w-1/5 md:w-2/3 px-4 mx-auto text-lg">
+        <div class="xl:w-1/3 md:w-2/3 px-4 mx-auto text-lg">
             @yield('body')
         </div>
     </body>
