@@ -657,6 +657,22 @@ table {
   }
 }
 
+a {
+  color: #e3342f;
+}
+
+code {
+  background-color: #dae1e7;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  font-size: .875rem;
+  border-width: 1px;
+  border-color: #b8c2cc;
+  border-radius: .125rem;
+}
+
 .list-reset {
   list-style: none;
   padding: 0;
