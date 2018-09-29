@@ -1,7 +1,9 @@
+@import 'prism.css';
+
 a {
   @apply text-red;
 }
 
-code {
-  @apply bg-grey-light px-2 py-1 text-sm border border-grey rounded-sm;
+:not(pre) > code {
+  @apply bg-grey-light px-2 py-1 text-sm border border-grey rounded-sm font-mono;
 }
