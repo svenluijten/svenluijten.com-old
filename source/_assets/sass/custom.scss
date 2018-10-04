@@ -4,6 +4,23 @@ a {
   @apply text-red;
 }
 
+p {
+  @apply mb-3;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+  @apply mt-4 font-head;
+}
+
 :not(pre) > code {
   @apply bg-grey-light px-2 py-1 text-sm border border-grey rounded-sm font-mono;
+}
+
+pre[class*="language-"] {
+  @apply border border-grey rounded-sm font-mono;
 }

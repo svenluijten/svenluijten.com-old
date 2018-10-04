@@ -806,6 +806,20 @@ a {
   color: #e3342f;
 }
 
+p {
+  margin-bottom: .75rem;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+  margin-top: 1rem;
+  font-family: Proza Libre, serif;
+}
+
 :not(pre) > code {
   background-color: #dae1e7;
   padding-left: .5rem;
@@ -813,6 +827,13 @@ a {
   padding-top: .25rem;
   padding-bottom: .25rem;
   font-size: .875rem;
+  border-width: 1px;
+  border-color: #b8c2cc;
+  border-radius: .125rem;
+  font-family: Fira Mono, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+}
+
+pre[class*="language-"] {
   border-width: 1px;
   border-color: #b8c2cc;
   border-radius: .125rem;
@@ -2679,11 +2700,11 @@ a {
 }
 
 .font-sans {
-  font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Open Sans, Roboto, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-.font-serif {
-  font-family: Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
+.font-head {
+  font-family: Proza Libre, serif;
 }
 
 .font-mono {
@@ -6687,11 +6708,11 @@ a {
   }
 
   .sm\:font-sans {
-    font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: Open Sans, Roboto, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
 
-  .sm\:font-serif {
-    font-family: Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
+  .sm\:font-head {
+    font-family: Proza Libre, serif;
   }
 
   .sm\:font-mono {
@@ -10680,11 +10701,11 @@ a {
   }
 
   .md\:font-sans {
-    font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: Open Sans, Roboto, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
 
-  .md\:font-serif {
-    font-family: Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
+  .md\:font-head {
+    font-family: Proza Libre, serif;
   }
 
   .md\:font-mono {
@@ -14673,11 +14694,11 @@ a {
   }
 
   .lg\:font-sans {
-    font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: Open Sans, Roboto, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
 
-  .lg\:font-serif {
-    font-family: Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
+  .lg\:font-head {
+    font-family: Proza Libre, serif;
   }
 
   .lg\:font-mono {
@@ -18666,11 +18687,11 @@ a {
   }
 
   .xl\:font-sans {
-    font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: Open Sans, Roboto, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
 
-  .xl\:font-serif {
-    font-family: Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
+  .xl\:font-head {
+    font-family: Proza Libre, serif;
   }
 
   .xl\:font-mono {

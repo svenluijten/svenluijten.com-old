@@ -1,7 +1,11 @@
 <?php
 
 return [
-    'baseUrl' => '',
-    'production' => false,
-    'collections' => [],
+    'baseUrl' => 'https://svenluijten.com',
+    'title' => 'Sven Luijten',
+    'collections' => [
+        'posts' => [
+            'path' => '{-filename}',
+        ],
+    ],
 ];
