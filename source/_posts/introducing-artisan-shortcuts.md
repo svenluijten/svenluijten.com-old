@@ -2,7 +2,7 @@
 extends: _layouts.master
 section: content
 title: Introducing Artisan Shortcuts
-date: 2018-10-04
+date: 201901-10
 edit_url: https://github.com/svenluijten/svenluijten.com/edit/master/source/_posts/introducing-artisan-shortcuts.md
 ---
 
