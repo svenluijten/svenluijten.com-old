@@ -4,8 +4,7 @@
     <h1>Introduction</h1>
     <p>
         My name is Sven Luijten, and I currently work as a PHP developer at <a href="https://stucomm.com">StuComm</a>,
-        a startup in Utrecht, The Netherlands. Outside of work, I enjoy photography and long rides on my
-        bike.
+        an EdTech startup based in Utrecht, The Netherlands.
     </p>
 
     <h2>Open Source</h2>
@@ -19,12 +18,6 @@
         which adds a <code>make:view</code> command to your Laravel apps. Have a look on
         <a href="https://github.com/svenluijten">my GitHub profile</a> to see what other projects I have worked on
         and contributed to.
-    </p>
-
-    <h2>Get In Touch</h2>
-    <p>
-        If you want to get in touch, the best way to do so is via <a href="https://twitter.com/svenluijten">Twitter</a>.
-        My direct messages are open to everyone, so if you have any questions or would just like a chat, hit me up!
     </p>
 @endsection
 
