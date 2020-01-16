@@ -1,4 +1,4 @@
 [build]
-PHP_VERSION=7.2
-command = "npm run production"
-publish = "build_production"
+  PHP_VERSION=7.2
+  command = "npm run production"
+  publish = "build_production"
