@@ -3,8 +3,7 @@
 @section('content')
     <h1>Introduction</h1>
     <p>
-        My name is Sven Luijten, and I currently work as a PHP developer at <a href="https://stucomm.com">StuComm</a>,
-        an EdTech startup based in Utrecht, The Netherlands.
+        My name is Sven Luijten, and I am a freelance PHP/Laravel developer currently based in The Netherlands.
     </p>
 
     <h2>Open Source</h2>
