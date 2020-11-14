@@ -3,8 +3,8 @@
 @section('content')
     <h1>Sven Luijten</h1>
     <p>
-        Hi, I'm Sven Luijten&mdash;a PHP/Laravel web developer from the south of The Netherlands, with over 4 years of
-        professional working experience.
+        Hi, I'm Sven Luijten&mdash;a freelance PHP/Laravel web developer from the south of The Netherlands, with over 
+        4 years of professional working experience.
     </p>
 
     <p>
