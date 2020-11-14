@@ -1,15 +1,15 @@
 @extends('_layouts.master')
 
 @section('content')
-    <h1>Introduction</h1>
+    <h1>Sven Luijten</h1>
     <p>
-        My name is Sven Luijten, and I am a freelance PHP/Laravel developer currently based in The Netherlands.
+        Hi, I'm Sven Luijten&mdash;a PHP/Laravel web developer from the south of The Netherlands, with over 4 years of
+        professional working experience.
     </p>
 
-    <h2>Open Source</h2>
     <p>
         I have been active in the Laravel community since around the release of Laravel 5.0, and I have an ever
-        growing portfolio of packages.
+        growing portfolio of open source packages to help make developers' lives easier.
     </p>
 
     <p>
