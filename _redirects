@@ -1,2 +1,0 @@
-# Redirect default Netlify subdomain to primary domain 
-https://friendly-almeida-db7e85.netlify.com/* https://svenluijten.com/:splat 301!

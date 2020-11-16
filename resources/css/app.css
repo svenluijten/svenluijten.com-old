@@ -1,0 +1,17 @@
+@tailwind base;
+
+@tailwind components;
+
+.emphasis {
+    @apply bg-indigo-600 py-1 px-2 font-extrabold italic text-white;
+}
+
+.link {
+    @apply text-indigo-700 font-medium p-1 -m-1;
+}
+
+.link:hover {
+    @apply text-white bg-indigo-600;
+}
+
+@tailwind utilities;
