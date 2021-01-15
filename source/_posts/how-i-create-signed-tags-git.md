@@ -6,6 +6,7 @@ date: 2020-01-15
 edit_url: https://github.com/svenluijten/svenluijten.com/edit/master/source/_posts/how-i-create-signed-tags-git.md
 ---
 
+# How I create (signed) tags in Git
 I have a GPG key set up to do most of my Git work. This way, everyone can safely
 assume that the commits and tags I’m pushing were actually made by me. I've configured
 my global `~/.gitconfig` file in such a way that every commit I do is automagically
