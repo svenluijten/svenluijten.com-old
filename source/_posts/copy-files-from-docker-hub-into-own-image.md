@@ -49,5 +49,5 @@ the snippet above with the name and tag of the image you want to copy out of.
 
 ---
 
-I should note that this behaviour is not documented in [the official Docker documentation](https://docs.docker.com/engine/reference/builder/#copy),
-so it *might* not even be officially supported. Proceed with caution.
+[The official Docker documentation](https://docs.docker.com/engine/reference/builder/#copy) does mention this feature, but
+it appears as though not a lot of people know about it (yet). I hope this post has helped you slim down your `Dockerfile`!
