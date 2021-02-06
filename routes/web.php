@@ -3,6 +3,7 @@
 use App\Http\Controllers\HomePageController;
 use App\Http\Controllers\AboutPageController;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\UsesPageController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,4 +20,5 @@ use Illuminate\Support\Facades\Route;
 Route::feeds();
 Route::get('/', HomePageController::class);
 Route::get('/about', AboutPageController::class);
+Route::get('/uses', UsesPageController::class);
 Route::get('/{post}', PostController::class)->name('post');
