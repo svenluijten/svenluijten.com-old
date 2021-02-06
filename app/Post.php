@@ -72,4 +72,9 @@ class Post
     {
         return $this->body;
     }
+
+    public function minutesToRead(): int
+    {
+        return round(str_word_count($this->body) / 220);
+    }
 }

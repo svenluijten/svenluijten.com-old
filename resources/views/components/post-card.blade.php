@@ -12,8 +12,6 @@
     </section>
 
     <footer>
-        <small class="text-sm text-gray-700">
-            <span>Published on {{ $post->date()->format('F jS, Y') }}</span> &mdash; <strong>Reading time:</strong> 2 minutes
-        </small>
+        <x-post-meta :post="$post" />
     </footer>
 </article>

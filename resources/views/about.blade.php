@@ -1,6 +1,6 @@
 <x-layout title="Hello, World">
     <main class="container mx-auto">
-        <div class="mx-auto w-full px-6 leading-9 text-xl font-light | lg:w-3/5 lg:px-0">
+        <div class="mx-auto w-full px-6 leading-relaxed text-xl font-light | lg:w-3/5 lg:px-0">
             <div class="flex flex-col justify-center items-center lg:flex-row">
                 <img src="{{ asset('images/sven.jpg') }}"
                      alt="A kick-ass Laravel developer smiling at the camera."
@@ -14,7 +14,7 @@
                         the <a class="link" href="https://laravel.com">Laravel framework</a>, which I am still a big fan
                         of to this day! I try to be active in the online communities on <a href="https://twitter.com/svenuijten" class="link">Twitter</a>,
                         often <a href="https://github.com/svenluijten" class="link">contribute to open source projects and packages</a>,
-                        and also <a href="{{ route('projects') }}" class="link">maintain several of my own</a>.
+                        and also <a href="https://github.com/svenluijten?tab=repositories" class="link">maintain several of my own</a>.
                     </p>
                 </div>
             </div>

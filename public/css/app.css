@@ -582,7 +582,6 @@ video {
 }
 
 .link {
-  font-weight: 500;
   margin: -0.25rem;
   padding: 0.25rem;
   --tw-text-opacity: 1;
@@ -594,6 +593,68 @@ video {
   background-color: rgba(99, 102, 241, var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+.post p {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  line-height: 1.625;
+  margin-bottom: 1.25rem;
+}
+
+.post a {
+  margin: -0.25rem;
+  padding: 0.25rem;
+  --tw-text-opacity: 1;
+  color: rgba(67, 56, 202, var(--tw-text-opacity));
+}
+
+.post a:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(99, 102, 241, var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+.post code {
+  --tw-bg-opacity: 1;
+  background-color: rgba(238, 242, 255, var(--tw-bg-opacity));
+  --tw-border-opacity: 1;
+  border-color: rgba(224, 231, 255, var(--tw-border-opacity));
+  border-width: 1px;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+}
+
+.post pre {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.post pre code {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .post pre code {
+    margin-left: -2rem;
+    margin-right: -2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.post h2 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .space-y-0 > :not([hidden]) ~ :not([hidden]) {

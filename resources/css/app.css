@@ -7,11 +7,35 @@
 }
 
 .link {
-    @apply text-indigo-700 font-medium p-1 -m-1;
+    @apply text-indigo-700 p-1 -m-1;
 }
 
 .link:hover {
     @apply text-white bg-indigo-500;
+}
+
+.post p {
+    @apply mb-5 text-xl leading-relaxed;
+}
+
+.post a {
+    @apply link;
+}
+
+.post code {
+    @apply bg-indigo-50 border border-indigo-100 px-2 py-0.5 text-lg;
+}
+
+.post pre {
+    @apply my-4;
+}
+
+.post pre code {
+    @apply lg:px-8 py-4 lg:-mx-8 my-4;
+}
+
+.post h2 {
+    @apply text-2xl font-bold;
 }
 
 @tailwind utilities;
