@@ -18,4 +18,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', HomePageController::class);
 Route::get('/about', AboutPageController::class);
+Route::get('/projects', function () { return 'project page here'; })->name('projects');
 Route::get('/{post}', PostController::class);

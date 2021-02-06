@@ -7,13 +7,13 @@
         <nav class="w-full | sm:w-auto">
             <ul class="flex justify-center text-lg">
                 <li>
-                    <a href="/" class="font-bold text-gray-600 px-4 py-2 border-b-4 border-indigo-200 | hover:text-white hover:border-indigo-600 hover:bg-indigo-600">
+                    <a href="/" class="font-bold text-gray-600 px-4 py-2 border-b-4 border-indigo-200 | hover:text-white hover:border-indigo-600 hover:bg-indigo-500">
                         Home
                     </a>
                 </li>
 
                 <li class="pl-6 | lg:pl-8">
-                    <a href="/about" class="font-bold text-gray-600 px-4 py-2 border-b-4 border-indigo-200 | hover:text-white hover:border-indigo-600 hover:bg-indigo-600">
+                    <a href="/about" class="font-bold text-gray-600 px-4 py-2 border-b-4 border-indigo-200 | hover:text-white hover:border-indigo-600 hover:bg-indigo-500">
                         About
                     </a>
                 </li>

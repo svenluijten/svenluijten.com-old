@@ -1,7 +1,7 @@
 <article class="mb-8">
     <header class="text-3xl font-extrabold mb-1">
         <h2>
-            <a href="{{ $post->slug() }}" class="border-b-4 border-indigo-200 hover:text-white hover:bg-indigo-600 hover:border-indigo-600">
+            <a href="{{ $post->slug() }}" class="border-b-4 border-indigo-200 hover:text-white hover:bg-indigo-500 hover:border-indigo-600">
                 {{ $post->title() }}
             </a>
         </h2>
