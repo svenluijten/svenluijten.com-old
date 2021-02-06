@@ -8,7 +8,7 @@
 
         @include('feed::links')
 
-        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+        <link rel="stylesheet" href="{{ secure_asset('css/app.css') }}">
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
 
         {{ $meta ?? null }}
