@@ -1,10 +1,10 @@
 <x-layout title="Hello, World">
     <main class="container mx-auto">
-        <div class="mx-auto w-full px-6 leading-relaxed text-xl font-light | lg:w-3/5 lg:px-0">
+        <div class="mx-auto w-full px-6 leading-relaxed text-xl font-light | lg:w-3/5 lg:px-0 dark:text-gray-100">
             <div class="flex flex-col justify-center items-center lg:flex-row">
                 <img src="{{ asset('images/sven.jpg') }}"
                      alt="A kick-ass Laravel developer smiling at the camera."
-                     class="w-64 h-64 my-4 rounded-full border-4 border-white shadow | lg:my-0 lg:-ml-24 lg:w-48 lg:h-48 "
+                     class="w-64 h-64 my-4 rounded-full border-4 border-gray-100 shadow | lg:my-0 lg:-ml-24 lg:w-48 lg:h-48 dark:border-gray-700"
                 >
 
                 <div class="lg:px-4">
@@ -34,6 +34,11 @@
                 may range from random thoughts I had while in the shower, to articles other developers may find useful.
                 I promise to try and limit the showerthoughts to <a href="https://twitter.com/svenluijten" class="link">Twitter</a>,
                 though!
+            </p>
+
+            <p class="mb-4">
+                If you want to know what hard- and software I use on a day-to-day basis, feel free to check out my
+                <a href="/uses" class="link">uses page</a>.
             </p>
 
             <p class="mb-4">

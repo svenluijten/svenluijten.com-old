@@ -16,6 +16,7 @@
         "laravel/framework": "^8.12",
         "laravel/tinker": "^2.5",
         "league/commonmark": "^1.4",
+        "spatie/laravel-feed": "^3.1",
         "spatie/yaml-front-matter": "^2.0"
     },
     "require-dev": {

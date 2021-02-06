@@ -7,9 +7,11 @@ use Illuminate\Support\Carbon;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
+use Spatie\Feed\Feedable;
+use Spatie\Feed\FeedItem;
 use Spatie\YamlFrontMatter\YamlFrontMatter;
 
-class Post
+class Post implements Feedable
 {
     protected string $title;
     protected Carbon $date;
@@ -76,5 +78,39 @@ class Post
     public function minutesToRead(): int
     {
         return round(str_word_count($this->body) / 220);
+    }
+
+    public function previous(): ?Post
+    {
+        return $this->all()
+            ->sortByDesc(function (Post $post) {
+                return $post->date()->timestamp;
+            })
+            ->first(function (Post $post) {
+                return $post->date()->lessThan($this->date());
+            });
+    }
+
+    public function next(): ?Post
+    {
+        return $this->all()
+            ->sortByDesc(function (Post $post) {
+                return $post->date()->timestamp;
+            })
+            ->last(function (Post $post) {
+                return $post->date()->greaterThan($this->date());
+            });
+    }
+
+    public function toFeedItem(): FeedItem
+    {
+        return FeedItem::create([
+            'id' => $this->date->timestamp,
+            'title' => $this->title,
+            'summary' => $this->excerpt,
+            'updated' => $this->date,
+            'link' => route('post', $this->slug),
+            'author' => 'Sven Luijten',
+        ]);
     }
 }

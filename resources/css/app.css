@@ -2,16 +2,8 @@
 
 @tailwind components;
 
-.emphasis {
-    @apply bg-indigo-500 py-1 px-2 font-extrabold italic text-white;
-}
-
 .link {
-    @apply text-indigo-700 p-1 -m-1;
-}
-
-.link:hover {
-    @apply text-white bg-indigo-500;
+    @apply text-indigo-700 p-1 -m-1 dark:text-indigo-300 hover:text-indigo-100 hover:bg-indigo-500;
 }
 
 .post p {
@@ -23,7 +15,7 @@
 }
 
 .post code {
-    @apply bg-indigo-50 border border-indigo-100 px-2 py-0.5 text-lg;
+    @apply bg-indigo-50 border border-indigo-100 rounded px-2 py-0.5 text-lg dark:bg-indigo-800 dark:border-indigo-900;
 }
 
 .post pre {
@@ -31,7 +23,7 @@
 }
 
 .post pre code {
-    @apply lg:px-8 py-4 lg:-mx-8 my-4;
+    @apply lg:px-8 py-4 lg:-mx-8 my-4 dark:bg-indigo-50;
 }
 
 .post h2 {

@@ -2,7 +2,7 @@
     <div class="mx-auto w-full flex items-center justify-between py-4 px-6 | lg:w-3/5 lg:px-0 md:py-12">
         <div>
             <a href="/" class="link">Sven Luijten</a>
-            &copy; <span id="year">{{ date('Y') }}</span>
+            <span class="text-black | dark:text-indigo-100">&copy; {{ date('Y') }}</span>
         </div>
 
         <nav>
@@ -14,7 +14,7 @@
                 GitHub
             </a>
 
-            <a href="/feed.xml" class="link | ml-4">
+            <a href="{{ route('feeds.posts') }}" class="link | ml-4">
                 RSS
             </a>
         </nav>

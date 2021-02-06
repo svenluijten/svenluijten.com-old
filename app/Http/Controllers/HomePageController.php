@@ -10,6 +10,8 @@ class HomePageController extends Controller
     {
         $posts = Post::all()->filter(function (Post $post) {
             return $post->date()->lessThanOrEqualTo(now());
+        })->sortByDesc(function (Post $post) {
+            return $post->date()->timestamp;
         });
 
         return view('home', [
