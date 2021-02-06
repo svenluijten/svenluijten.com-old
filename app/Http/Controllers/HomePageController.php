@@ -2,13 +2,15 @@
 
 namespace App\Http\Controllers;
 
+use App\Post;
+
 class HomePageController extends Controller
 {
     public function __invoke()
     {
-        $posts = [
-            ['title' => 'Introducing Artisan Shortcuts', 'date' => '2019-01-10', 'slug' => 'introducing-artisan-shortcuts', 'excerpt' => 'Simplifying the execution of multiple artisan commands'],
-        ];
+        $posts = Post::all()->filter(function (Post $post) {
+            return $post->date()->lessThanOrEqualTo(now());
+        });
 
         return view('home', [
             'posts' => $posts,

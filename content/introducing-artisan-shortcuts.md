@@ -2,7 +2,9 @@
 title: Introducing Artisan Shortcuts
 subtitle: A package to create shortcuts for a chain of artisan commands
 date: 2019-01-10
-excerpt: Simplifying the execution of multiple artisan commands
+excerpt: |
+    Artisan Shortcuts is a new package to execute multiple artisan commands in 
+    one fell swoop.
 ---
 
 In this blog post I would like to introduce you to a new package I have been 

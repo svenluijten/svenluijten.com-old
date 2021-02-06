@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fac753ae2702317b354e7eb283f28cbc",
+    "content-hash": "08eeb637d17b895fb7cb52e800f5062f",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -61,6 +61,84 @@
                 "source": "https://github.com/asm89/stack-cors/tree/v2.0.2"
             },
             "time": "2020-10-29T16:03:21+00:00"
+        },
+        {
+            "name": "blade-ui-kit/blade-ui-kit",
+            "version": "0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/blade-ui-kit/blade-ui-kit.git",
+                "reference": "28f4a43a817f381b1590e30c877655e3bcdd190a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/blade-ui-kit/blade-ui-kit/zipball/28f4a43a817f381b1590e30c877655e3bcdd190a",
+                "reference": "28f4a43a817f381b1590e30c877655e3bcdd190a",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "illuminate/filesystem": "^7.0|^8.0",
+                "illuminate/support": "^7.0|^8.0",
+                "illuminate/view": "^7.0|^8.0",
+                "nesbot/carbon": "^2.38",
+                "php": "^7.3|^8.0"
+            },
+            "require-dev": {
+                "gajus/dindent": "^2.0",
+                "guzzlehttp/guzzle": "^6.5",
+                "league/commonmark": "^1.4",
+                "lorisleiva/cron-translator": "^0.1.1",
+                "orchestra/testbench": "^5.0|^6.0",
+                "phpunit/phpunit": "^9.0"
+            },
+            "suggest": {
+                "league/commonmark": "Required to use the markdown component (^1.4).",
+                "lorisleiva/cron-translator": "Required to use the cron component (^0.1.1)."
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "BladeUIKit\\BladeUIKitServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "BladeUIKit\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dries Vints",
+                    "email": "dries@vints.io",
+                    "homepage": "https://driesvints.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A set of renderless components to utilise in your Laravel Blade views.",
+            "homepage": "https://github.com/blade-ui-kit/blade-ui-kit",
+            "keywords": [
+                "blade",
+                "laravel",
+                "ui"
+            ],
+            "support": {
+                "issues": "https://github.com/blade-ui-kit/blade-ui-kit/issues",
+                "source": "https://github.com/blade-ui-kit/blade-ui-kit"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/driesvints",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-10-31T20:40:44+00:00"
         },
         {
             "name": "brick/math",
@@ -2348,6 +2426,59 @@
             "time": "2020-08-18T17:17:46+00:00"
         },
         {
+            "name": "spatie/yaml-front-matter",
+            "version": "2.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/yaml-front-matter.git",
+                "reference": "efb5170a92216b8d2f40874301db8eb51b8e73cc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/yaml-front-matter/zipball/efb5170a92216b8d2f40874301db8eb51b8e73cc",
+                "reference": "efb5170a92216b8d2f40874301db8eb51b8e73cc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0",
+                "symfony/yaml": "^3.0|^4.0|^5.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\YamlFrontMatter\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian De Deyne",
+                    "email": "sebastian@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A to the point yaml front matter parser",
+            "homepage": "https://github.com/sebastiandedeyne/yaml-front-matter",
+            "keywords": [
+                "front matter",
+                "jekyll",
+                "spatie",
+                "yaml"
+            ],
+            "support": {
+                "issues": "https://github.com/spatie/yaml-front-matter/issues",
+                "source": "https://github.com/spatie/yaml-front-matter/tree/master"
+            },
+            "time": "2019-12-02T20:50:50+00:00"
+        },
+        {
             "name": "swiftmailer/swiftmailer",
             "version": "v6.2.3",
             "source": {
@@ -4567,6 +4698,81 @@
                 }
             ],
             "time": "2020-10-27T10:11:13+00:00"
+        },
+        {
+            "name": "symfony/yaml",
+            "version": "v5.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/yaml.git",
+                "reference": "338cddc6d74929f6adf19ca5682ac4b8e109cdb0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/338cddc6d74929f6adf19ca5682ac4b8e109cdb0",
+                "reference": "338cddc6d74929f6adf19ca5682ac4b8e109cdb0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5",
+                "symfony/deprecation-contracts": "^2.1",
+                "symfony/polyfill-ctype": "~1.8"
+            },
+            "conflict": {
+                "symfony/console": "<4.4"
+            },
+            "require-dev": {
+                "symfony/console": "^4.4|^5.0"
+            },
+            "suggest": {
+                "symfony/console": "For validating YAML files using the lint command"
+            },
+            "bin": [
+                "Resources/bin/yaml-lint"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Yaml\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Loads and dumps YAML files",
+            "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/yaml/tree/v5.2.3"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-02-03T04:42:09+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
@@ -7258,7 +7464,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.3|^8.0"
+        "php": "^7.4"
     },
     "platform-dev": [],
     "plugin-api-version": "2.0.0"

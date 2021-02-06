@@ -23,15 +23,15 @@
             </p>
 
             <blockquote class="border-l-4 border-gray-300 pl-3 mb-4">
-                PHP, Laravel, Docker, Git, MySQL, TailwindCSS, Golang, JavaScript, Vue.js, Angular, React, Symfony, Kubernetes,
-                GitHub, GitLab, Jira, PhpStorm, REST APIs, OpenAPI, Postman, StoplightIO, Linux, Ubuntu, CentOS, ...
+                PHP, Java, Golang, Javascript, Laravel, Docker, Git, MySQL, TailwindCSS, Vue.js, React, Symfony,
+                Kubernetes, Spring Boot, GitHub, GitLab, Jira, PhpStorm, REST APIs, OpenAPI, Postman, StoplightIO, ...
             </blockquote>
 
             <p class="mb-4">
                 {{-- TODO --}}
                 When I have the itch, I will publish my writing on <a href="/" class="link">my blog</a>. These posts
-                may range from random thoughts I had while in the shower, to helpful articles for other developers. I
-                promise to try and limit the showerthoughts to <a href="https://twitter.com/svenluijten" class="link">Twitter</a>,
+                may range from random thoughts I had while in the shower, to articles other developers may find useful.
+                I promise to try and limit the showerthoughts to <a href="https://twitter.com/svenluijten" class="link">Twitter</a>,
                 though!
             </p>
 
