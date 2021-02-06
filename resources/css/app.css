@@ -3,7 +3,7 @@
 @tailwind components;
 
 .emphasis {
-    @apply bg-indigo-600 py-1 px-2 font-extrabold italic text-white;
+    @apply bg-indigo-500 py-1 px-2 font-extrabold italic text-white;
 }
 
 .link {
@@ -11,7 +11,7 @@
 }
 
 .link:hover {
-    @apply text-white bg-indigo-600;
+    @apply text-white bg-indigo-500;
 }
 
 @tailwind utilities;
