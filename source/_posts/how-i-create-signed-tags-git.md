@@ -1,7 +1,7 @@
 ---
 extends: _layouts.master
 section: content
-title: How I created (signed) tags in Git
+title: How I create (signed) tags in Git
 date: 2020-01-15
 edit_url: https://github.com/svenluijten/svenluijten.com/edit/master/source/_posts/how-i-create-signed-tags-git.md
 ---
