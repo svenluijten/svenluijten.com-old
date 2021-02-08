@@ -16,6 +16,7 @@
 
 .post code, code {
     @apply bg-indigo-50 border border-indigo-100 rounded px-2 py-0.5 text-lg dark:bg-indigo-800 dark:border-indigo-900;
+    box-decoration-break: clone;
 }
 
 .post pre {
