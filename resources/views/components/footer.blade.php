@@ -1,12 +1,12 @@
 <footer class="container mx-auto">
-    <div class="mx-auto w-full flex items-center justify-between py-4 px-6 | lg:w-3/5 lg:px-0 md:py-12">
+    <div class="mx-auto w-full flex flex-col items-center justify-between py-4 px-6 | sm:flex-row lg:w-3/5 lg:px-0 md:py-12">
         <div>
             <a href="/" class="link">Sven Luijten</a>
             <span class="text-black | dark:text-indigo-100">&copy; {{ date('Y') }}</span>
         </div>
 
-        <nav>
-            <a href="https://twitter.com/svenluijten" target="_blank" rel="noopener" class="link | ml-4">
+        <nav class="mt-4 | sm:mt-0">
+            <a href="https://twitter.com/svenluijten" target="_blank" rel="noopener" class="link | sm:ml-4">
                 Twitter
             </a>
 
