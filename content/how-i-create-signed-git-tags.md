@@ -1,9 +1,7 @@
 ---
 title: How I create (signed) tags in Git
 date: 2020-01-15
-excerpt: |
-    I always sign any tag I create in Git with my GPG key. Here is how you can
-    do the same.
+excerpt: I always sign any tag I create in Git with my GPG key. Here is how you can do the same.
 ---
 
 I have a GPG key set up to do most of my Git work. This way, everyone can safely
