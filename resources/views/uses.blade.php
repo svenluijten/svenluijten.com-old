@@ -1,6 +1,6 @@
 <x-layout title="Hello, World">
     <main class="container mx-auto">
-        <div class="mx-auto w-full px-6 leading-relaxed text-xl font-light | lg:w-3/5 lg:px-0 dark:text-gray-100">
+        <div class="mx-auto w-full px-6 leading-relaxed text-xl | lg:w-3/5 lg:px-0 dark:text-gray-100">
             <h1 class="text-3xl font-bold">I use...</h1>
 
             <p class="mb-4">
@@ -24,12 +24,19 @@
             </p>
 
             <p class="mb-4">
-                My peripherals of choice are the <a href="https://amzn.to/3cI7JQm" class="link">Logitech MX Master 2S</a>,
-                the <a class="link" href="https://amzn.to/3oXTvgu">Keychron K2 (Aluminium + RGB with Cherry MX Brown switches)</a>,
-                a pair of <a class="link" href="https://amzn.to/3cMOIfy">AudioTechnica M50x</a>'s, a
-                <a class="link" href="https://amzn.to/3aFbgfJ">Blue Snowball microphone</a>, and a
-                <a href="https://amzn.to/2MG3HNM" class="link">Logitech C920</a> for my webcam-needs. I will
-                also occasionally use my pair of <a href="https://amzn.to/3jpGD1z" class="link">AirPods Pro (2019)</a>
+                My peripherals of choice are:
+            </p>
+
+            <ul class="list-disc pl-6 pb-4">
+                <li>The <a href="https://amzn.to/3cI7JQm" class="link">Logitech MX Master 2S</a> mouse</li>
+                <li><a class="link" href="https://amzn.to/3oXTvgu">Keychron K2 (Aluminium + RGB with Cherry MX Brown switches)</a></li>
+                <li>A pair of <a class="link" href="https://amzn.to/3cMOIfy">AudioTechnica M50x</a> headphones</li>
+                <li><a class="link" href="https://amzn.to/3aFbgfJ">Blue Snowball microphone</a></li>
+                <li><a href="https://amzn.to/2MG3HNM" class="link">Logitech C920</a> for my webcam-needs</li>
+            </ul>
+
+            <p class="mb-4">
+                I will also occasionally use my pair of <a href="https://amzn.to/3jpGD1z" class="link">AirPods Pro (2019)</a>
                 if I'm feeling adventurous.
             </p>
 
@@ -39,6 +46,14 @@
             </p>
 
             <h2 class="text-2xl font-bold">Software</h2>
+
+            <h3>Alfred</h3>
+            <p class="mb-4">
+                I use <a href="https://www.alfredapp.com" class="link">Alfred</a> <i>all the time</i>. It is my app
+                launcher & switcher, my clipboard history manager, my workflow launcher, and my snippet expander. It is
+                incredibly versitile and well worth the cost of the power pack.
+            </p>
+
             <h2 class="text-2xl font-bold">Daily Carry</h2>
         </div>
     </main>
