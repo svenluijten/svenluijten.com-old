@@ -16,7 +16,7 @@ return [
             /*
              * The feed will be available on this url.
              */
-            'url' => 'posts.atom',
+            'url' => 'posts.xml',
 
             'title' => 'Sven Luijten\'s Blog Posts',
 
