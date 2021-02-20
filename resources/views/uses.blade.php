@@ -14,7 +14,7 @@
                 through them.
             </x-note>
 
-            <h2 class="text-2xl font-bold">Workplace</h2>
+            <x-heading>Workplace</x-heading>
 
             <p class="mb-4">
                 My daily driver at the moment is a 2019 MacBook Pro with an Intel Core i7 processor, 32 GB of RAM, and a
@@ -45,32 +45,33 @@
                 and when I'm not standing at it, I sit on an <a href="https://www.ikea.com/us/en/p/markus-office-chair-vissle-dark-gray-90289172/" class="link">IKEA MARKUS office chair</a>.
             </p>
 
-            <h2 class="text-2xl font-bold">Software</h2>
+            <x-heading>Software</x-heading>
 
-            <x-use title="Alfred">
-                I use <a href="https://www.alfredapp.com" class="link">Alfred</a> <i>all the time</i>. It is my app
-                launcher & switcher, my clipboard history manager, my workflow launcher, and my snippet expander. It is
-                incredibly versitile and well worth the cost of the power pack.
+            <x-use title="Alfred" link="https://www.alfredapp.com">
+                I use Alfred <i>all the time</i>. It is my app launcher & switcher, my clipboard history manager, my
+                workflow launcher, and my snippet expander. It is incredibly versitile and well worth the cost of the
+                power pack.
             </x-use>
 
             <x-use title="Code editor">
-                My primary IDE is whatever Jetbrains IDE works best for the language I am developing in at the time. 
-                On PHP projects, this is PhpStorm. For Go, Goland. If I'm writing Java, Intellij it is. For simple
-                throwaway scratch files and quick editing (that does not require an IDE), I use Microsoft VS Code.
+                My primary IDE is whatever <a href="https://www.jetbrains.com/products/#type=ide" class="link">Jetbrains IDE</a> 
+                works best for the language I am developing in at the time. On PHP projects, this is PhpStorm. For Go, Goland. 
+                If I'm writing Java, Intellij it is. For simple throwaway scratch files and quick editing (that does not require an IDE), 
+                I use <a href="https://code.visualstudio.com" class="link">Microsoft VS Code</a>.
             </x-use>
 
-            <x-use title="1Password">
+            <x-use title="1Password" link="https://1password.com">
                 1Password is by far the best password manager I have used to date. After years of having a cobbled together
-                solution of Dropbox + KeePass + lots of frustration, I made the switch, and I have not looked back since.
+                solution of Dropbox + KeePass + lots of frustration, I made the switch and have not looked back since.
             </x-use>
 
-            <x-use title="Things">
+            <x-use title="Things" link="http://culturedcode.com/things/">
                 Having used no proper todo app for the longest time, I finally decided to start using one after reading the
                 book Getting Things Done. This has proven to be the best thing I could have done. And since I am already
                 up to my waste into the Apple ecosystem, I figured I would pick up the best todo app available.
             </x-use>
 
-            <h2 class="text-2xl font-bold">Daily Carry</h2>
+            <x-heading>Daily Carry</x-heading>
         </div>
     </main>
 </x-layout>
