@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::feeds();
-Route::get('/', HomePageController::class);
-Route::get('/about', AboutPageController::class);
-Route::get('/uses', UsesPageController::class);
+Route::get('/', HomePageController::class)->name('home');
+Route::get('/about', AboutPageController::class)->name('about');
+Route::get('/uses', UsesPageController::class)->name('uses');
 Route::get('/{post}', PostController::class)->name('post');

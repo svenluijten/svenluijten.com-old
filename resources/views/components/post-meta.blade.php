@@ -2,6 +2,6 @@
     <span>Published on {{ $post->date()->format('F jS, Y') }}</span>
     &mdash;
     <span class="italic">
-        {{ $post->minutesToRead() }} {{ \Illuminate\Support\Str::plural('minute', $post->minutesToRead()) }} to read
+        {{ $post->minutesToRead() }} {{ Str::plural('minute', $post->minutesToRead()) }} to read
     </span>
 </div>

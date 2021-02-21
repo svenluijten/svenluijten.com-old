@@ -6,8 +6,8 @@
 
         <nav class="w-full mt-3 | sm:w-auto sm:mt-0">
             <ul class="flex justify-center text-lg">
-                <x-nav-item link="/">Home</x-nav-item>
-                <x-nav-item link="/about">About</x-nav-item>
+                <x-nav-item link="{{ route('home') }}">Home</x-nav-item>
+                <x-nav-item link="{{ route('about') }}">About</x-nav-item>
             </ul>
         </nav>
     </div>

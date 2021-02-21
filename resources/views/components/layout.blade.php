@@ -2,8 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport"
-              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
         @include('feed::links')
@@ -27,8 +26,8 @@
         <meta name="theme-color" content="#4f46e5">
 
         <link rel="stylesheet" href="{{ secure_asset('css/app.css') }}">
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/dracula.min.css" media="(prefers-color-scheme: dark)">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/dracula.min.css" media="(prefers-color-scheme: dark)">
 
         <!-- Primary Meta Tags -->
         <title>{{ $title }}</title>
@@ -40,14 +39,14 @@
         <meta property="og:url" content="{{ request()->url() }}">
         <meta property="og:title" content="{{ $title }}">
         <meta property="og:description" content="{{ isset($post) ? $post->excerpt() : 'Hi 👋 — My name is Sven Luijten, and I am a full stack developer for the web.' }}">
-        <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+        <meta property="og:image" content="https://rawcdn.githack.com/svenluijten/assets/HEAD/{{ isset($post) ? $post->slug() : 'misc' }}/card.png">
 
         <!-- Twitter -->
         <meta property="twitter:card" content="summary">
         <meta property="twitter:url" content="{{ request()->url() }}">
         <meta property="twitter:title" content="{{ $title }}">
         <meta property="twitter:description" content="{{ isset($post) ? $post->excerpt() : 'Hi 👋 — My name is Sven Luijten, and I am a full stack developer for the web.' }}">
-        <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+        <meta property="twitter:image" content="https://rawcdn.githack.com/svenluijten/assets/HEAD/{{ isset($post) ? $post->slug() : 'misc' }}/card.png">
         <meta property="twitter:creator" content="@svenluijten">
     </head>
 
@@ -59,7 +58,7 @@
         <x-footer/>
     </body>
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/dockerfile.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/dockerfile.min.js"></script>
     <script type="text/javascript">hljs.initHighlightingOnLoad();</script>
 </html>
