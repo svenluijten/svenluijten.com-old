@@ -16,11 +16,15 @@
         <link rel="apple-touch-icon" sizes="144x144" href="{{ secure_asset('apple-icon-144x144.png') }}">
         <link rel="apple-touch-icon" sizes="152x152" href="{{ secure_asset('apple-icon-152x152.png') }}">
         <link rel="apple-touch-icon" sizes="180x180" href="{{ secure_asset('apple-icon-180x180.png') }}">
+        
         <link rel="icon" type="image/png" sizes="192x192"  href="{{ secure_asset('android-icon-192x192.png') }}">
         <link rel="icon" type="image/png" sizes="32x32" href="{{ secure_asset('favicon-32x32.png') }}">
         <link rel="icon" type="image/png" sizes="96x96" href="{{ secure_asset('favicon-96x96.png') }}">
         <link rel="icon" type="image/png" sizes="16x16" href="{{ secure_asset('favicon-16x16.png') }}">
+        
         <link rel="manifest" href="{{ secure_asset('manifest.json') }}">
+        <link rel="canonical" href="{{ request()->fullUrl() }}">
+        
         <meta name="msapplication-TileColor" content="#4f46e5">
         <meta name="msapplication-TileImage" content="{{ secure_asset('ms-icon-144x144.png') }}">
         <meta name="theme-color" content="#4f46e5">
@@ -39,20 +43,18 @@
 
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website">
-        <meta property="og:url" content="{{ request()->url() }}">
+        <meta property="og:url" content="{{ request()->fullUrl() }}">
         <meta property="og:title" content="{{ $title }}">
         <meta property="og:description" content="{{ isset($post) ? $post->excerpt() : 'Hi 👋 — My name is Sven Luijten, and I am a full stack developer for the web.' }}">
         <meta property="og:image" content="https://rawcdn.githack.com/svenluijten/assets/HEAD/{{ isset($post) ? $post->slug() : 'misc' }}/card.png">
 
         <!-- Twitter -->
         <meta property="twitter:card" content="summary">
-        <meta property="twitter:url" content="{{ request()->url() }}">
+        <meta property="twitter:url" content="{{ request()->fullUrl() }}">
         <meta property="twitter:title" content="{{ $title }}">
         <meta property="twitter:description" content="{{ isset($post) ? $post->excerpt() : 'Hi 👋 — My name is Sven Luijten, and I am a full stack developer for the web.' }}">
         <meta property="twitter:image" content="https://rawcdn.githack.com/svenluijten/assets/HEAD/{{ isset($post) ? $post->slug() : 'misc' }}/card.png">
         <meta property="twitter:creator" content="@svenluijten">
-
-        <link rel="canonical" href="{{ request()->fullUrl() }}">
     </head>
 
     <body class="font-sans text-base text-gray-900 antialiased border-8 border-gray-300 bg-white min-h-screen relative | dark:bg-gray-800 dark:border-gray-900 lg:border-0">
