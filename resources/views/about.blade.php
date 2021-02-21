@@ -3,15 +3,15 @@
         <div class="mx-auto w-full px-6 leading-relaxed text-xl | lg:w-3/5 lg:px-0 dark:text-gray-100">
             <div class="flex flex-col justify-center items-center lg:flex-row">
                 <img src="{{ asset('images/sven@2x.jpg') }}"
-                     alt="A kick-ass Laravel developer smiling at the camera."
+                     alt="A headshot of an insanely handsome developer looking just past the camera with a strapping smile."
                      class="w-64 h-64 my-4 rounded-full border-4 border-gray-100 shadow | lg:my-0 lg:-ml-24 lg:w-48 lg:h-48 dark:border-gray-700"
                 >
 
                 <div class="lg:px-4">
                     <h1 class="text-3xl font-bold">Hi 👋 — My name is Sven Luijten</h1>
                     <p class="mb-4">
-                        and I am a full stack developer currently working with Spring Boot and React. I got my start in
-                        the <a class="link" href="https://laravel.com">Laravel framework</a>, which I am still a big fan
+                        and I am a full stack developer for the web. I got my start in the 
+                        <a class="link" href="https://laravel.com">Laravel framework</a>, which I am still a big fan
                         of to this day! I try to be active in the online communities on <a href="https://twitter.com/svenuijten" class="link">Twitter</a>,
                         often <a href="https://github.com/svenluijten" class="link">contribute to open source projects and packages</a>,
                         and also <a href="https://github.com/svenluijten?tab=repositories" class="link">maintain several of my own</a>.
