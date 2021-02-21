@@ -30,26 +30,25 @@
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/dracula.min.css" media="(prefers-color-scheme: dark)">
 
-        {{ $meta ?? null }}
-
         <!-- Primary Meta Tags -->
-        <title>{{ $title }} — Sven Luijten</title>
+        <title>{{ $title }}</title>
         <meta name="title" content="{{ $title }}">
-        <meta name="description" content="Hi 👋 — My name is Sven Luijten, and I am a full stack developer for the web.">
+        <meta name="description" content="{{ isset($post) ? $post->excerpt() : 'Hi 👋 — My name is Sven Luijten, and I am a full stack developer for the web.' }}">
 
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website">
         <meta property="og:url" content="{{ request()->url() }}">
         <meta property="og:title" content="{{ $title }}">
-        <meta property="og:description" content="Hi 👋 — My name is Sven Luijten, and I am a full stack developer for the web.">
+        <meta property="og:description" content="{{ isset($post) ? $post->excerpt() : 'Hi 👋 — My name is Sven Luijten, and I am a full stack developer for the web.' }}">
         <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
 
         <!-- Twitter -->
-        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:card" content="summary">
         <meta property="twitter:url" content="{{ request()->url() }}">
         <meta property="twitter:title" content="{{ $title }}">
-        <meta property="twitter:description" content="Hi 👋 — My name is Sven Luijten, and I am a full stack developer for the web.">
+        <meta property="twitter:description" content="{{ isset($post) ? $post->excerpt() : 'Hi 👋 — My name is Sven Luijten, and I am a full stack developer for the web.' }}">
         <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+        <meta property="twitter:creator" content="@svenluijten">
     </head>
 
     <body class="font-sans text-base text-gray-900 antialiased border-8 border-gray-300 bg-white min-h-screen relative | dark:bg-gray-800 dark:border-gray-900 lg:border-0">

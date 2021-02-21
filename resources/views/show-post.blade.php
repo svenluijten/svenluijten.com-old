@@ -1,9 +1,4 @@
-<x-layout title="{{ $post->title() }} — Sven Luijten">
-    <x-slot name="meta">
-        {{-- TODO --}}
-        <meta name="something" content="this should be rendered in the head">
-    </x-slot>
-
+<x-layout title="{{ $post->title() }} — Sven Luijten" :post="$post">
     <article class="container mx-auto | dark:text-indigo-100">
         <div class="mx-auto w-full py-4 px-6 | lg:w-3/5 md:py-12 lg:px-0">
             <header>
