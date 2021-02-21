@@ -13,7 +13,7 @@ Assume you are a PHP or JavaScript developer and you just joined a company. This
 
 Meanwhile, the "blueprint" file (`composer.json` and `package.json` for PHP and JavaScript respectively) has a list of dependencies needed to run the project, for example:
 
-```json
+```js
 {
     "require": {
         "super-awesome-dependency": "^1.0"
