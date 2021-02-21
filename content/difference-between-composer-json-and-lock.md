@@ -6,7 +6,7 @@ excerpt: To figure out what the difference is between the composer.json and comp
 
 There is quite a lot of confusion about the `composer.json` and the `composer.lock` files out there. Should they both be committed to version control? Why does removing the `vendor/` directory and the `composer.lock` file, and then running `composer install` again fix 95% of the Composer-related errors? This blog post is meant to answer those questions, give you a better understanding of how Composer works, and teach you a reliable way to get out of "dependency hell".
 
-To start off simple, `composer.json` is a blueprint for your PHP dependencies. We will mainly be taking a look at the `require` (and at the same time `require-dev`) section(s) of this file. Take this basic file for example:
+To start off, it is important to know that `composer.json` is a _blueprint_ for your PHP dependencies. We will mainly be taking a look at the `require` (and at the same time `require-dev`) section(s) of this file. Take this basic file for example:
 
 ```js
 {
