@@ -1,4 +1,4 @@
-<x-layout title="Hello, World">
+<x-layout title="Sven Luijten">
     <x-slot name="meta">
         {{-- TODO --}}
         <meta name="something" content="this should be rendered in the head">

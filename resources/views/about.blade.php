@@ -1,4 +1,4 @@
-<x-layout title="Hello, World">
+<x-layout title="About — Sven Luijten">
     <main class="container mx-auto">
         <div class="mx-auto w-full px-6 leading-relaxed text-xl | lg:w-3/5 lg:px-0 dark:text-gray-100">
             <div class="flex flex-col justify-center items-center lg:flex-row">

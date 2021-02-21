@@ -1,4 +1,4 @@
-<x-layout :title="$post->title()">
+<x-layout title="{{ $post->title() }} — Sven Luijten">
     <x-slot name="meta">
         {{-- TODO --}}
         <meta name="something" content="this should be rendered in the head">

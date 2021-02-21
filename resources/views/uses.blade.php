@@ -1,4 +1,4 @@
-<x-layout title="Hello, World">
+<x-layout title="Uses — Sven Luijten">
     <main class="container mx-auto">
         <div class="mx-auto w-full px-6 leading-relaxed text-xl | lg:w-3/5 lg:px-0 dark:text-gray-100">
             <h1 class="text-3xl font-bold">I use...</h1>
