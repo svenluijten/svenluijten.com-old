@@ -1,6 +1,6 @@
 ---
 title: The difference between composer.json and composer.lock
-date: 2021-03-05
+date: 2021-03-12
 excerpt: To figure out what the difference is between the composer.json and composer.lock files, let us take a deep dive into how Composer resolves dependencies.
 ---
 
