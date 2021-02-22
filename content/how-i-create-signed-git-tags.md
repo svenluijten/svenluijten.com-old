@@ -1,6 +1,6 @@
 ---
 title: How I create (signed) tags in Git
-date: 2020-01-15
+date: 2021-01-15
 excerpt: I always sign any tag I create in Git with my GPG key. Here is how you can do the same.
 ---
 

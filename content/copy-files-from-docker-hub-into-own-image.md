@@ -1,6 +1,6 @@
 ---
 title: Copying files from Docker Hub into your own image
-date: 2020-01-22
+date: 2021-01-22
 excerpt: This is how you can copy files from any image on Docker Hub into your own Docker image with just a single line in your Dockerfile.
 ---
 
