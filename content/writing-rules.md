@@ -1,6 +1,6 @@
 ---
 title: Writing rules
-date: 2021-03-12
+date: 2021-03-05
 excerpt: These are some of the rules I try to stick to when doing any sort of (technical) writing.
 ---
 
