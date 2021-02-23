@@ -5,7 +5,7 @@
             <span class="text-black | dark:text-indigo-100">&copy; {{ date('Y') }}</span>
         </div>
 
-        <nav class="mt-4 | sm:mt-0">
+        <nav class="mt-4 flex | sm:mt-0">
             <a href="https://twitter.com/svenluijten" target="_blank" rel="noopener" class="link | sm:ml-4">
                 Twitter
             </a>
