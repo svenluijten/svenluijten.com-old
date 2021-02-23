@@ -10,7 +10,7 @@ Since starting this blog, I have tried to keep my writing as accessible to every
 Whenever possible, I avoid using the word "just". Not because I have a personal vendetta against 4-letter words, but because it degrades the person reading. Imagine reading "[...] then just attach the flux capacitor to the hibernated plomp-McGurb" in an instruction manual, but you have no idea what a "plomp-McGurb" is. That would make me feel silly, if not downright stupid. This rule can also be applied to the words "simply", "easily", and "quickly".
 
 ## Shouldn't've
-<!-- No Contractions -->
+To prevent confusion and promote consistency, I shy away from using contractions like "don't", "that'd", "shouldn't", "we'll", and so on. There is not some big idea behind this, I honestly thought it would make the writing more accessible (did you know that "shouldn't've" is a valid word in English? Yuck.), and it would make for a fun challenge to keep me on my toes while writing!
 
 ## UA's
 <!-- Unnecessary Acronyms -->
