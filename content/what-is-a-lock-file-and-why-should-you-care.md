@@ -13,7 +13,7 @@ Assume you are a PHP or JavaScript developer and you just joined a company. This
 
 Meanwhile, the "blueprint" file (`composer.json` and `package.json` for PHP and JavaScript respectively) has a list of dependencies needed to run the project, for example:
 
-```js
+```json
 {
     "require": {
         "super-awesome-dependency": "^1.0"
@@ -27,7 +27,7 @@ Now, it just so happens that the author of `super-awesome-dependency` accidental
 
 Your deploy script will _still_ happily install the latest `1.x` version (which just so happens to be `1.3.0`, the one with the bug), every time you deploy the application until you intervene and edit your "blueprint" file:
 
-```js
+```json
 {
     "require": {
         "super-awesome-dependency": ">= 1.0 < 1.3"
@@ -36,9 +36,9 @@ Your deploy script will _still_ happily install the latest `1.x` version (which 
 ```
 
 ## With a lock file
-Your "blueprint" file looks the same as it does above, but now, you also commit  your lock file:
+Your "blueprint" file looks the same as it does above, but now, you also commit  your lock file, which will look similar to this:
 
-```js
+```json
 {
     "hash": "8as7d6f98a7s6dfa09w74",
     "packages": [
