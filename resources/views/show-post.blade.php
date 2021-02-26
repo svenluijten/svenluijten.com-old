@@ -9,7 +9,7 @@
             <hr class="my-8 | dark:border-gray-900">
 
             <main>
-                <x-markdown anchors flavor="github" class="post">
+                <x-markdown flavor="github" class="post">
                     {!! $post->body() !!}
                 </x-markdown>
             </main>
