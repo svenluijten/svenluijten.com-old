@@ -31,4 +31,8 @@
     @apply text-2xl font-bold;
 }
 
+.post h3 {
+    @apply text-xl font-bold;
+}
+
 @tailwind utilities;
