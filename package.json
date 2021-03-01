@@ -9,12 +9,10 @@
     },
     "devDependencies": {
         "autoprefixer": "^10.2.4",
-        "axios": "^0.21.1",
-        "cross-env": "^7.0",
-        "laravel-mix": "^6.0.11",
-        "lodash": "^4.17.19",
-        "postcss": "^8.2.4",
+        "cross-env": "^7.0.3",
+        "laravel-mix": "^6.0.13",
+        "postcss": "^8.2.6",
         "resolve-url-loader": "^3.1.0",
-        "tailwindcss": "^2.0.2"
+        "tailwindcss": "^2.0.3"
     }
 }
