@@ -11,7 +11,7 @@
 
         <link rel="canonical" href="{{ rtrim(config('app.url'), '/') . request()->getPathInfo() }}">
 
-        <link rel="stylesheet" href="{{ secure_asset('css/app.css') }}">
+        <link rel="stylesheet" href="{{ mix('css/app.css') }}">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/dracula.min.css" media="(prefers-color-scheme: dark)">
 
