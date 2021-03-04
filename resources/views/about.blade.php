@@ -2,7 +2,7 @@
     <main class="container mx-auto">
         <div class="mx-auto w-full px-6 leading-relaxed text-xl | lg:w-3/5 lg:px-0 dark:text-gray-100">
             <div class="flex flex-col justify-center items-center lg:flex-row">
-                <img src="{{ asset('images/sven@2x.jpg') }}"
+                <img src="{{ secure_asset('images/sven@2x.jpg') }}"
                      alt="A headshot of an insanely handsome developer looking just past the camera with a strapping smile."
                      class="w-64 h-64 my-4 rounded-full border-4 border-gray-100 shadow | lg:my-0 lg:-ml-24 lg:w-48 lg:h-48 dark:border-gray-700"
                 >
