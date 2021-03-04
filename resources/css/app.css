@@ -10,12 +10,16 @@
     @apply mb-5 text-xl leading-relaxed;
 }
 
-.post a:not(> code) {
+.post a {
     @apply link;
 }
 
-.post a code {
-    @apply hover:underline;
+.post a > code {
+    @apply text-indigo-700 dark:text-indigo-100 underline;
+}
+
+.post a:hover > code {
+    @apply bg-transparent border-indigo-500 text-indigo-100;
 }
 
 .post code, code {
