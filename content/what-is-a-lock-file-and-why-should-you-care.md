@@ -23,7 +23,7 @@ Meanwhile, the "blueprint" file (`composer.json` and `package.json` for PHP and 
 
 Everything works fine, and your deployment script runs `install` every time, happily fetching the latest `1.x.y` version every time.
 
-Now, it just so happens that the author of `super-awesome-dependency` accidentally introduced a terrible application-crashing bug in version `1.3.0`, which is going to take a really long time to fix, because they just left for a vacation in the Bahama's.
+Now, it just so happens that the author of `super-awesome-dependency` accidentally introduced a terrible application-crashing bug in version `1.3.0`, which is going to take a really long time to fix, because they just left for a vacation in the Bahamas.
 
 Your deploy script will _still_ happily install the latest `1.x` version (which just so happens to be `1.3.0`, the one with the bug), every time you deploy the application until you intervene and edit your "blueprint" file:
 
