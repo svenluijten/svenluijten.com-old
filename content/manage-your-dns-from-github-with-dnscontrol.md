@@ -9,7 +9,7 @@ DNS is a pain. Especially with multiple DNS providers and domains scattered all 
 Well, you are in luck. In this post I will walk you through how you can set up [DNSControl](https://stackexchange.github.io/dnscontrol/) in combination with [GitHub Actions](https://github.com/features/actions) to do just that.
 
 ## What is DNSControl?
-DNSControl is an open source platform to manage your DNS configuration on any of the supported DNS providers such as Cloudflare, DigitalOcean, DNSimple, [and more](https://stackexchange.github.io/dnscontrol/provider-list). It is written in Go, and made by the awesome people over at StackExchange. They use it to manage the DNS all the domains in the Stack Overflow network, it does not get more battle-tested than this! 
+DNSControl is an open source platform to manage your DNS configuration on any of the supported DNS providers such as Cloudflare, DigitalOcean, DNSimple, [and more](https://stackexchange.github.io/dnscontrol/provider-list). It is written in Go, and made by the awesome people over at StackExchange. They use it to manage the DNS of all the domains in the Stack Overflow network, so it does not get more battle-tested than this! 
 
 A small DNSControl configuration file may look like this:
 
@@ -112,9 +112,9 @@ jobs:
 
 This workflow will run when you submit a new pull request to change anything in your `dnsconfig.js`, and will comment the changes you are about to make when you merge the pull request.
 
-As you can see, the first job (`check`) does not require the Cloudflare API token because all the `dnscontrol check` command does is make sure your `dnsconfig.js` file does not contain syntax errors.
+As you can see, the first job (`check`) does not require the Cloudflare API token because all the `dnscontrol check` command does is it makes sure your `dnsconfig.js` file does not contain syntax errors.
 
-The next job (`preview`), on the other hand, in a little more involved. We first define that it depends on the previous `check` job, so that we do not make unnecessary API calls to Cloudflare. Then, we invoke DNSControl's `preview` command using [`koenrh/dnscontrol-action`](https://github.com/koenrh/dnscontrol-action), passing in the `CLOUDFLARE_API_TOKEN` we defined earlier in the repository's secrets.
+The next job (`preview`), on the other hand, in a little bit more involved. We first define that it depends on the previous `check` job, so that we do not make unnecessary API calls to Cloudflare or waste build minutes on GitHub Actions. We then invoke DNSControl's `preview` command using [`koenrh/dnscontrol-action`](https://github.com/koenrh/dnscontrol-action), passing in the `CLOUDFLARE_API_TOKEN` we defined earlier in the repository's secrets.
 
 Because we gave this step an `id` of `preview`, we can refer to this in the next step to comment the output of the `dnscontrol preview` command on the pull request using [`unsplash/comment-on-pr`](https://github.com/unsplash/comment-on-pr).
 
@@ -153,7 +153,7 @@ And that is all there is to it! If you now create a new branch, update `dnsconfi
 ******************** Domain: svenluijten.nl
 ----- Getting nameservers from: cloudflare
 ----- DNS Provider: cloudflare...3 corrections
-#1: DELETE record: svenluijten.com A 1 123.45.67.89 (id=4a2e74dc283c9073a51f5cf95a830e21)
+#1: DELETE record: svenluijten.nl A 1 123.45.67.89 (id=4a2e74dc283c9073a51f5cf95a830e21)
 #2: CREATE record: @ CNAME 1 svenluijten.com.
 #3: ACTIVATE PROXY for new record @ CNAME 1 svenluijten.com.
 ----- Registrar: none...0 corrections
