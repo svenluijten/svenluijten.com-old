@@ -14,6 +14,14 @@
     @apply link;
 }
 
+.post a > code {
+    @apply text-indigo-700 dark:text-indigo-100 underline;
+}
+
+.post a:hover > code {
+    @apply bg-transparent border-indigo-500 text-indigo-100;
+}
+
 .post code, code {
     @apply bg-indigo-50 border border-indigo-100 rounded px-2 py-0.5 text-lg dark:bg-indigo-800 dark:border-indigo-900;
     box-decoration-break: clone;
