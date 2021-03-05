@@ -35,7 +35,7 @@ function GoogleEmail() {
 }
 ```
 
-For this tutorial, it is helpful to have one provider to host the DNS for all of your domains. I personally spent a few hours pointing all my domains' nameservers to Cloudflare, but you can pick [any of the providers DNSControl supports](https://stackexchange.github.io/dnscontrol/provider-list). For simplicity (and because it is what I use), I will assume Cloudflare as the provider in this post.
+For this tutorial, it is helpful to have one provider to host the DNS for all of your domains. You can start off with just one or two domains, but I find that the value of this approach mostly lies in having _one_ place to do everything DNS-related. I personally spent a few hours pointing all my domains' nameservers to Cloudflare, but you can pick [any of the providers DNSControl supports](https://stackexchange.github.io/dnscontrol/provider-list). For simplicity (and because it is what I use), I will assume Cloudflare as the provider in this post.
 
 ## Getting set up
 The very first thing you should do is create a new repository on GitHub. This repository can be either public or private, your choice. I have mine set to **private** for extra peace of mind. Add a `README.md`, `creds.json`, and `dnsconfig.js` to the root folder, and 2 files in `.github/workflows/`; `check-and-preview.yml` and `push.yml`. You should end up with a folder structure that looks like this:
