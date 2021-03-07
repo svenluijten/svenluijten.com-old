@@ -37,6 +37,8 @@
         <meta property="twitter:description" content="{{ isset($post) ? $post->excerpt() : 'Hi 👋 — My name is Sven Luijten, and I am a full stack developer for the web.' }}">
         <meta property="twitter:image" content="https://rawcdn.githack.com/svenluijten/assets/HEAD/{{ isset($post) ? $post->slug() : 'misc' }}/card.png">
         <meta property="twitter:creator" content="@svenluijten">
+
+        <script src="https://cdn.usefathom.com/script.js" data-site="EDQPODRZ" defer></script>
     </head>
 
     <body class="font-sans text-base text-gray-900 antialiased border-8 border-gray-300 bg-white min-h-screen relative | dark:bg-gray-800 dark:border-gray-900 lg:border-0">
