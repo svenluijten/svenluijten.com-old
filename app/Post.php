@@ -105,7 +105,7 @@ class Post implements Feedable
     public function toFeedItem(): FeedItem
     {
         return FeedItem::create([
-            'id' => $this->date->timestamp,
+            'id' => $this->slug,
             'title' => $this->title,
             'summary' => $this->excerpt,
             'updated' => $this->date,
