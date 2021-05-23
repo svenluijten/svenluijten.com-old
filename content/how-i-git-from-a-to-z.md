@@ -92,7 +92,7 @@ $ git config --global gpg.program <path to gpg executable>
 $ git config --global user.signingKey <gpg signing key>
 ```
 
-For more information on—and a guide on how to—set up GPG signing in git, I recommend [GitHub's help articles](https://docs.github.com/en/github/authenticating-to-github/managing-commit-signature-verification).
+For more information on—and a guide on how to set up—GPG signing in git, I recommend [GitHub's help articles](https://docs.github.com/en/github/authenticating-to-github/managing-commit-signature-verification).
 
 I also force myself to sign any annotated tag I create (which is all of them) by setting the `tag.forceSignAnnotated` option to `true`:
 
