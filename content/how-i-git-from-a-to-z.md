@@ -1,6 +1,6 @@
 ---
 title: How I git from A to Z
-date: 2021-05-16
+date: 2021-05-24
 excerpt: An in-depth look at my git setup and configuration.
 ---
 
