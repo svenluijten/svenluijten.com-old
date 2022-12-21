@@ -54,27 +54,37 @@
             </x-use>
 
             <x-use title="Code editor">
-                My primary IDE is whatever <a href="https://www.jetbrains.com/products/#type=ide" target="_blank" class="link">Jetbrains IDE</a> 
-                works best for the language I am developing in at the time. On PHP projects, this is PhpStorm. For Go, Goland. 
-                If I am writing Java, Intellij it is. For simple throwaway scratch files and quick editing (that does not require an IDE), 
+                My primary IDE is whatever <a href="https://www.jetbrains.com/products/#type=ide" target="_blank" class="link">Jetbrains IDE</a>
+                works best for the language I am developing in at the time. On PHP projects, this is PhpStorm. For Go, Goland.
+                If I am writing Java, Intellij it is. For simple throwaway scratch files and quick editing (that does not require an IDE),
                 I use <a href="https://code.visualstudio.com" target="_blank" class="link">Microsoft VS Code</a>.
             </x-use>
 
             <x-use title="1Password" link="https://1password.com">
                 1Password is by far the best password manager I have used to date. After years of having a cobbled together
-                solution of Dropbox + KeePass + lots of frustration, I made the switch and have not looked back since.
+                solution of Dropbox + KeePass + lots of frustration, I made the switch and have not looked back since. I
+                pay for the family subscription.
             </x-use>
 
             <x-use title="Things" link="http://culturedcode.com/things/">
                 Having used no proper todo app for the longest time, I finally decided to start using one after reading the
-                book <a href="https://amzn.to/3k78HHz" target="_blank" class="link">Getting Things Done</a>. This has proven to be the best thing 
-                I could have done. And since I already up to my waste into the Apple ecosystem, I figured I would pick up the
-                best todo app available.
+                book <a href="https://amzn.to/3k78HHz" target="_blank" class="link">Getting Things Done</a>. This has proven
+                to be the best thing I could have done. And since I already up to my waste into the Apple ecosystem, I
+                figured I would pick up the best todo app available.
             </x-use>
 
-            <x-use title="Notion" link="https://www.notion.so">
-                Just like all the cool kids in 2021, I am using Notion for some of my note-taking. I still have yet to find the perfect
-                note taking solution, but for structured content, Notion comes pretty close. And its free plan is quite generous, too!
+            <x-use title="Bear" link="https://bear.app">
+                I use Bear for all my general note-taking. Writing Markdown comes easy to me after having done so for
+                most of my programming career, and Bear makes it easy to organize the notes with their tagging feature.
+            </x-use>
+
+            <x-use title="Discord" link="https://discord.com">
+                Most of my internet friends are on Discord, so that is what I use to chat with and talk to them.
+            </x-use>
+
+            <x-use title="Day One" link="https://dayoneapp.com">
+                I try to write something in my journal at least once a day, and Day One is the best journaling app for
+                iOS and macOS that I have found so far.
             </x-use>
 
             <x-heading>Daily Carry</x-heading>
@@ -91,17 +101,17 @@
             </x-use>
 
             <x-use title="Travel">
-                When I am out and about, I will use either my <a href="https://amzn.to/3bphiBn" class="link" target="_blank">20L Everyday Backpack (Tan)</a>, 
+                When I am out and about, I will use either my <a href="https://amzn.to/3bphiBn" class="link" target="_blank">20L Everyday Backpack (Tan)</a>,
                 or <a href="https://amzn.to/3kd7DBR" class="link" target="_blank">the 30L Charcoal version</a> as a backpack. This holds
                 <span title="Stay hydrated!" class="cursor-help">a nondescript 1L water bottle that I drink out of during the day</span>, as well
-                as my <a href="https://amzn.to/3aFNrWd" class="link" target="_blank">Peak Design Field Pouch (Charcoal)</a> filled with cables, 
-                <a href="https://amzn.to/2ZzqZrg" class="link" target="_blank">a battery bank</a>, and 
+                as my <a href="https://amzn.to/3aFNrWd" class="link" target="_blank">Peak Design Field Pouch (Charcoal)</a> filled with cables,
+                <a href="https://amzn.to/2ZzqZrg" class="link" target="_blank">a battery bank</a>, and
                 <a href="https://amzn.to/3sgPnuq" class="link" target="_blank">a Samsung T5 USB-C SSD</a>.
             </x-use>
 
             <x-use>
-                When I have to sit in transit for a while, I will take my pair of <a href="https://amzn.to/3aE2AHy" class="link" target="_blank">Sony WH1000XM3's</a> 
-                with me to listen to music and podcasts, and drown out the noise around me, as well as my 
+                When I have to sit in transit for a while, I will take my pair of <a href="https://amzn.to/3aE2AHy" class="link" target="_blank">Sony WH1000XM3's</a>
+                with me to listen to music and podcasts, and drown out the noise around me, as well as my
                 <a href="https://amzn.to/3ukBgFV" class="link" target="_blank">Kindle Paperwhite</a> to read while on the go.
             </x-use>
 
