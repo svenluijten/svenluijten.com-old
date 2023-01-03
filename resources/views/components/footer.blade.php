@@ -6,11 +6,11 @@
         </div>
 
         <nav class="mt-4 flex | sm:mt-0">
-            <a href="https://twitter.com/svenluijten" target="_blank" rel="noopener" class="link | sm:ml-4">
-                Twitter
+            <a href="https://mas.to/@svenluijten" target="_blank" rel="noreferrer me author" class="link | sm:ml-4">
+                Mastodon
             </a>
 
-            <a href="https://github.com/svenluijten" target="_blank" rel="noopener" class="link | ml-4">
+            <a href="https://github.com/svenluijten" target="_blank" rel="noreferrer me author" class="link | ml-4">
                 GitHub
             </a>
 
