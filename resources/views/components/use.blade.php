@@ -1,7 +1,11 @@
-@if($attributes->has('title')) 
+@if($attributes->has('title'))
     <h3 id="{{ $id = Str::slug($attributes->get('title')) }}" class="font-bold">
-        <a href="{{ $attributes->get('link', '#'.$id) }}" target="{{ $attributes->has('link') ? '_blank' : '_self' }}" class="link">
-            {{ $attributes->get('title') }} 
+        <a href="{{ $attributes->get('link', '#'.$id) }}"
+           class="link"
+           target="{{ $attributes->has('link') ? '_blank' : '_self' }}"
+           {{ $attributes->has('link') ? 'rel="noreferrer"' : null }}
+        >
+            {{ $attributes->get('title') }}
         </a>
     </h3>
 @endif
