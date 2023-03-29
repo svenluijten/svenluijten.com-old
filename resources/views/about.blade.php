@@ -42,9 +42,8 @@
             </p>
 
             <p class="mb-4">
-                If you would like to get in touch, you can do so <a href="mailto:contact@svenluijten.com" class="link">via email</a>,
-                or come and say "hi" to me on <a href="https://twitter.com/svenluijten" class="link">Twitter</a>! You can
-                also visit <a href="https://github.com/svenluijten" class="link">my GitHub profile</a> to see my contributions
+                If you would like to get in touch, you can do so <a href="mailto:contact@svenluijten.com" class="link">via email</a>. 
+                You can also visit <a href="https://github.com/svenluijten" class="link">my GitHub profile</a> to see my contributions
                 and open source libraries I have developed over time.
             </p>
 
