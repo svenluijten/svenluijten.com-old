@@ -11,7 +11,7 @@
         "php": "^7.4",
         "blade-ui-kit/blade-ui-kit": "^0.3.4",
         "fideloper/proxy": "^4.4",
-        "fruitcake/laravel-cors": "^2.0",
+        "fruitcake/laravel-cors": "^3.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.12",
         "laravel/tinker": "^2.5",
