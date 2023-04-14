@@ -8,6 +8,7 @@ primary_region = "ams"
 processes = []
 
 [build]
+  PHP_VERSION = "7.4"
   [build.args]
     NODE_VERSION = "18"
     PHP_VERSION = "7.4"
