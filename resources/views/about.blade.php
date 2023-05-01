@@ -10,10 +10,9 @@
                 <div class="lg:px-4">
                     <h1 class="text-3xl font-bold">Hi 👋 — My name is Sven Luijten</h1>
                     <p class="mb-4">
-                        and I am a full stack developer for the web. I got my start in the 
+                        and I am a full stack developer for the web. I got my start in the
                         <a class="link" href="https://laravel.com">Laravel framework</a>, which I am still a big fan
-                        of to this day! I try to be active in the online communities on <a href="https://twitter.com/svenluijten" class="link">Twitter</a>,
-                        often <a href="https://github.com/svenluijten" class="link">contribute to open source projects and packages</a>,
+                        of to this day! I often <a href="https://github.com/svenluijten" class="link">contribute to open source projects and packages</a>
                         and also <a href="https://github.com/svenluijten?tab=repositories" class="link">maintain several of my own</a>.
                     </p>
                 </div>
@@ -30,27 +29,19 @@
             </blockquote>
 
             <p class="mb-4">
-                When I have the itch, I will publish my writing on <a href="{{ route('home') }}" class="link">my blog</a>. These posts
-                may range from random thoughts I had while in the shower, to articles other developers may find useful.
-                I promise to try and limit the showerthoughts to <a href="https://twitter.com/svenluijten" class="link">Twitter</a>,
-                though!
-            </p>
-
-            <p class="mb-4">
                 If you want to know what hard- and software I use on a day-to-day basis, feel free to check out my
                 <a href="{{ route('uses') }}" class="link">uses page</a>.
             </p>
 
             <p class="mb-4">
-                If you would like to get in touch, you can do so <a href="mailto:contact@svenluijten.com" class="link">via email</a>. 
+                If you would like to get in touch, you can do so <a href="mailto:contact@svenluijten.com" class="link">via email</a>.
                 You can also visit <a href="https://github.com/svenluijten" class="link">my GitHub profile</a> to see my contributions
                 and open source libraries I have developed over time.
             </p>
 
             <x-note>
-                if you spot any tyop on this site,
-                <a href="https://github.com/svenluijten/svenluijten.com" class="link">it is open source</a>, so feel free
-                submit a pull request to fix it!
+                if you spot any tyop on this site, <a href="https://github.com/svenluijten/svenluijten.com" class="link">it is open source</a>,
+                so feel free submit a pull request to fix it!
             </x-note>
         </div>
     </main>
